@@ -59,7 +59,7 @@ public class SecurityConfig {
 
         config.setAllowedOrigins(List.of(
                 "http://localhost:3000",
-                "https://your-app-name.netlify.app"
+                "https://employee-frontend-kaustubh.netlify.app"
         ));
 
         config.setAllowedMethods(List.of(
