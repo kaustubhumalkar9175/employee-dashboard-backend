@@ -58,7 +58,8 @@ public class SecurityConfig {
         CorsConfiguration config = new CorsConfiguration();
 
         config.setAllowedOrigins(List.of(
-                "http://localhost:3000"
+                "http://localhost:3000",
+                "https://your-app-name.netlify.app"
         ));
 
         config.setAllowedMethods(List.of(
